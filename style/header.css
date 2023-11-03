@@ -1,0 +1,47 @@
+body {
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: rgba(39, 36, 36, 0.5);
+}
+
+
+header {
+
+    background-color: rgba(39, 36, 36, 0.5);
+    z-index: 1;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.header-logo img {
+    background: rgb(235,117,33, 0.7);
+    background: linear-gradient(80deg, rgba(235,117,33,0.7) 0%, rgba(235,178,33,0.7) 48%, rgba(235,117,33,0.7) 100%);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+    0 0 25px rgb(0, 0, 0),
+    0 0 50px rgb(30, 31, 32),
+    0 0 100px rgb(15, 16, 16);
+    padding: 30px 100px;
+    margin: 30px auto;
+    max-width: 500px;
+    max-height: 200px;
+}
+
+.header-btn {
+    position: absolute;
+    right: 20px;
+}
+
+.pump {
+    top: 130px;
+    right: 530px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
